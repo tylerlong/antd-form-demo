@@ -1,10 +1,10 @@
 {
+  "scripts": {
+    "serve": "parcel src/index.html --dist-dir docs",
+    "lint": "eslint --fix '**/*.{ts,tsx,js,jsx}' && prettier --write ."
+  },
   "license": "UNLICENSED",
   "version": "0.1.0",
-  "scripts": {
-    "lint": "eslint --fix '**/*.{ts,tsx,js,jsx}' && prettier --write .",
-    "serve": "parcel src/index.html --dist-dir docs"
-  },
   "devDependencies": {
     "@tylerlong/use-proxy": "^1.2.3",
     "@types/node": "^18.15.3",
@@ -16,14 +16,14 @@
     "eslint-config-alloy": "^4.9.0",
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "events": "^3.1.0",
+    "events": "^3.3.0",
     "parcel": "^2.8.3",
     "prettier": "^2.8.4",
     "process": "^0.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ts-node": "^10.9.1",
-    "ttpt": "^0.2.2",
+    "ttpt": "^0.3.1",
     "typescript": "^5.0.2",
     "yarn-upgrade-all": "^0.7.2"
   }
